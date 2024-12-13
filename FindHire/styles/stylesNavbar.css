@@ -1,0 +1,39 @@
+.greeting {
+    background-color: #916733;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.greeting h1 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+nav {
+    background-color: #c09870;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #a47b4e;
+}
